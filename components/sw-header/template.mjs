@@ -16,14 +16,13 @@ template.innerHTML = `
                 <li>
                     <h3>Dear Kiitos</h3>
                     <div>
-                        <a href="#backend-cohort"><button>333.eco</button></a>
-                        <h4>Wallet</h4>
+                        <h4>Thanks</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
                             <li><a>Read Textbook on Medium</a></li>
                             <li><a href="#backend-quiz">Take Quizzes to Check Understanding</a></li>
                         </menu>
-                        <h4>Personal Identification</h4>
+                        <h4>Coins</h4>
                         <menu>
                             <li><a href="#backend-podcast">Podcast: Motivation & Coding Music</a></li>
                             <li><a href="#backend-code">Interactive Coding Exercises</a></li>
@@ -35,20 +34,18 @@ template.innerHTML = `
             </ul>
             <ul>
                 <li>
-                    <h3>Kiity for Charity</h3>
+                    <h3>Charity Kitty</h3>
                     <div>
-                        <a href="#coupon"><button>Kiitos.Earth</button></a>
-                        <h4>Inclusion & Diversity</h4>
+                        <h4>Prizes</h4>
                         <menu>
-                            <li><a>Women & Minorities</a></li>
-                            <li><a>Ukrainian Refugees</a></li>
-                            <li><a>Cambodian Genocide</a></li>
+                            <li><a>Coins</a></li>
+                            <li><a>NFTs</a></li>
                         </menu>
-                        <h4>Campuses</h4>
+                        <h4>Charities</h4>
                         <menu>
-                            <li><a>Cambodia</a></li>
-                            <li><a>Ukraine</a></li>
-                            <li><a>United States</a></li>
+                            <li><a>Farming</a></li>
+                            <li><a>Housing</a></li>
+                            <li><a>Healthcare</a></li>
                         </menu>
                     </div>
                 </li>
