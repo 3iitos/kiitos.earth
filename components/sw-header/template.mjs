@@ -16,18 +16,14 @@ template.innerHTML = `
                 <li>
                     <h3>Dear Kiitos</h3>
                     <div>
+                        <a href="#Dear.Kiitos.earth"><button>Dear.Kiitos.earth</button></a>
                         <h4>Thanks</h4>
                         <menu>
-                            <li><a>Watch Videos on Udemy</a></li>
-                            <li><a>Read Textbook on Medium</a></li>
-                            <li><a href="#backend-quiz">Take Quizzes to Check Understanding</a></li>
+                            <li><a>Zero Hero Equation</a></li>
                         </menu>
                         <h4>Coins</h4>
                         <menu>
-                            <li><a href="#backend-podcast">Podcast: Motivation & Coding Music</a></li>
-                            <li><a href="#backend-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on Replit</a></li>
+                            <li><a>Non Zero-Sum Blockchain</a></li>
                         </menu>
                     </div>
                 </li>
@@ -36,6 +32,7 @@ template.innerHTML = `
                 <li>
                     <h3>Charity Kitty</h3>
                     <div>
+                        <a href="#Kitty.Kiitos.earth"><button>Kitty.Kiitos.earth</button></a>
                         <h4>Prizes</h4>
                         <menu>
                             <li><a>Coins</a></li>
