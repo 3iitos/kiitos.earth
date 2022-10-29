@@ -21,21 +21,23 @@ template.innerHTML = `
                 </ul>
             </section>
             <section>
-                <h5>Kiitos</h5>
-                <ul>
-                    <li><a href="https://dear.kiitos.earth">Dear Kiitos</a></li>
-                    <li><a href="https://kitty.kiitos.earth">Charity Kitty</a></li>
-                </ul>
-            </section>
-            <section>
-                <h5>Contact</h5>
-                <ul>
-                    <li><a href="mailto:love@kiitos.earth">love@kiitos.earth</a></li>
-                </ul>
                 <h5>Donate</h5>
                 <ul>
                     <li><a href="https://heartbank.fund">HeartBank</a></li>
                     <li><a href="https://github.com/sponsors/3iitos">GitHub</a></li>
+                </ul>
+                <h5>Contact</h5>
+                <ul>
+                    <li><a href="mailto:love@kiitos.earth">love@kiitos.earth</a></li>
+                </ul>
+            </section>
+            <section>
+                <h5>Connect</h5>
+                <ul>
+                    <li><a href="https://talk.siliconwat.org">Silicon Wat</a></li>
+                    <li><a href="https://youtube.com/">YouTube</a></li>
+                    <li><a href="https://twitter.com/3iitos">Twitter</a></li>
+                    <li><a href="https://medium.com/@kiitos">Medium</a></li>
                 </ul>
             </section>
         </main>

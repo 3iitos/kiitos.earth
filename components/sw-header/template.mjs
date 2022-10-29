@@ -30,7 +30,7 @@ template.innerHTML = `
             </ul>
             <ul>
                 <li>
-                    <h3>Charity Kitty</h3>
+                    <h3>Kitty Kiitos</h3>
                     <div>
                         <a href="#Kitty.Kiitos.earth"><button>Kitty.Kiitos.earth</button></a>
                         <h4>Prizes</h4>
@@ -40,8 +40,8 @@ template.innerHTML = `
                         </menu>
                         <h4>Charities</h4>
                         <menu>
-                            <li><a>Farming</a></li>
                             <li><a>Housing</a></li>
+                            <li><a>Farming</a></li>
                             <li><a>Healthcare</a></li>
                         </menu>
                     </div>
