@@ -35,7 +35,7 @@ template.innerHTML = `
                 <h5>Connect</h5>
                 <ul>
                     <li><a href="https://talk.siliconwat.org">Silicon Wat</a></li>
-                    <li><a href="https://youtube.com/">YouTube</a></li>
+                    <li><a href="https://youtube.com/@3iitos">YouTube</a></li>
                     <li><a href="https://twitter.com/3iitos">Twitter</a></li>
                     <li><a href="https://medium.com/@kiitos">Medium</a></li>
                 </ul>
