@@ -11,43 +11,39 @@ template.innerHTML = `
         <label class='menu-button-container' for="menu-toggle">
             <span class='menu-button'></span>
         </label>
-        <nav>
-            <ul>
-                <li>
-                    <h3>Dear Kiitos</h3>
-                    <div>
-                        <a href="#Dear.Kiitos.earth"><button>Dear.Kiitos.earth</button></a>
-                        <h4>Thanks</h4>
-                        <menu>
-                            <li><a>Zero Hero Equation</a></li>
-                        </menu>
-                        <h4>Coins</h4>
-                        <menu>
-                            <li><a>Non Zero-Sum Blockchain</a></li>
-                        </menu>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Kitty Kiitos</h3>
-                    <div>
-                        <a href="#Kitty.Kiitos.earth"><button>Kitty.Kiitos.earth</button></a>
-                        <h4>Prizes</h4>
-                        <menu>
-                            <li><a>Coins</a></li>
-                            <li><a>NFTs</a></li>
-                        </menu>
-                        <h4>Charities</h4>
-                        <menu>
-                            <li><a>Housing</a></li>
-                            <li><a>Farming</a></li>
-                            <li><a>Healthcare</a></li>
-                        </menu>
-                    </div>
-                </li>
-            </ul>
-        </nav>
+        <ul>
+            <li>
+                <h3>Dear Kiitos</h3>
+                <nav>
+                    <a href="#Dear.Kiitos.earth"><button>Dear.Kiitos.earth</button></a>
+                    <h4>Thanks</h4>
+                    <menu>
+                        <li><a>Zero Hero Equation</a></li>
+                    </menu>
+                    <h4>Coins</h4>
+                    <menu>
+                        <li><a>Non Zero-Sum Blockchain</a></li>
+                    </menu>
+                </nav>
+            </li>
+            <li>
+                <h3>Kitty Kiitos</h3>
+                <nav>
+                    <a href="#Kitty.Kiitos.earth"><button>Kitty.Kiitos.earth</button></a>
+                    <h4>Prizes</h4>
+                    <menu>
+                        <li><a>Coins</a></li>
+                        <li><a>NFTs</a></li>
+                    </menu>
+                    <h4>Charities</h4>
+                    <menu>
+                        <li><a>Housing</a></li>
+                        <li><a>Farming</a></li>
+                        <li><a>Healthcare</a></li>
+                    </menu>
+                </nav>
+            </li>
+        </ul>
         <aside>
             <select onchange="this.getRootNode().host.changeLanguage(event)">
                 <option value="en">English</option>
