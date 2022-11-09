@@ -33,9 +33,9 @@ template.innerHTML = `
                     </ul>
                 </div>
                 <div>
-                    <h5>Contact</h5>
+                    <h5>Sponsor</h5>
                     <ul>
-                        <li><a href="mailto:love@kiitos.earth">love@kiitos.earth</a></li>
+                        <li><a href="https://kiitos.earth">Kiitos</a></li>
                     </ul>
                 </div>
             </section>
@@ -47,6 +47,12 @@ template.innerHTML = `
                         <li><a href="https://youtube.com/@3iitos">YouTube</a></li>
                         <li><a href="https://twitter.com/3iitos">Twitter</a></li>
                         <li><a href="https://medium.com/@kiitos">Medium</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="mailto:love@kiitos.earth">love@kiitos.earth</a></li>
                     </ul>
                 </div>
             </section>
