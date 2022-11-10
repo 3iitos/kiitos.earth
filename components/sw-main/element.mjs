@@ -23,21 +23,21 @@ class SwMain extends HTMLElement {
     }
 
     #animate() {
-        var tmax_opts = {
-            delay: 0.5,
+        const tmax_opts = {
+            delay: 0,
             repeat: -1,
-            repeatDelay: 0.5,
+            repeatDelay: 0,
             yoyo: true
         };
         
-        var tmax_tl           = new TimelineMax(tmax_opts),
-            polyland_shapes   = this.shadowRoot.querySelectorAll('svg.landscape polygon'),
-            polyland_stagger  = 0.00475,
+        const tmax_tl = new TimelineMax(tmax_opts),
+            polyland_shapes = this.shadowRoot.querySelectorAll('svg.landscape polygon'),
+            polyland_stagger = 0.00475,
             polyland_duration = 1.5;
         
         CSSPlugin.useSVGTransformAttr = true;
         
-        var polyland_staggerFrom = {
+        const polyland_staggerFrom = {
             scale: 0,
             opacity: 0,
             transformOrigin: 'center center',
@@ -45,7 +45,7 @@ class SwMain extends HTMLElement {
             force3D: true
         };
         
-        var polyland_staggerTo = {
+        const polyland_staggerTo = {
             opacity: 1,
             scale: 1,
             ease: Elastic.easeInOut,
