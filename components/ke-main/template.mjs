@@ -3,7 +3,7 @@ const template = document.createElement("template");
 // Reference: https://codepen.io/dropside/pen/naLyjw?editors=0010
 
 template.innerHTML = `
-    <link rel="stylesheet" href="components/sw-main/shadow.css">
+    <link rel="stylesheet" href="components/ke-main/shadow.css">
     <slot></slot>
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 3315 1818" enable-background="new 0 0 3315 1818" xml:space="preserve" class="landscape">

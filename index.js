@@ -1,9 +1,9 @@
-import "./components/sw-header/element.mjs";
+import "./components/ke-header/element.mjs";
 
-import "./components/sw-main/sw-stealth/element.mjs";
-import "./components/sw-main/element.mjs";
+import "./components/ke-main/ke-stealth/element.mjs";
+import "./components/ke-main/element.mjs";
 
-import "./components/sw-footer/element.mjs";
+import "./components/ke-footer/element.mjs";
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
