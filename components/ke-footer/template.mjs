@@ -1,30 +1,16 @@
+import "./ke-donors/element.mjs";
+import "./ke-sponsors/element.mjs";
+import { ORIGIN } from "/global.mjs";
 const template = document.createElement("template");
-const origin = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5500" : "https://thonly.org";
 
 template.innerHTML = `
-    <link rel="stylesheet" href="${origin}/components/tl-footer/shadow.css">
+    <link rel="stylesheet" href="${ORIGIN}/components/tl-footer/shadow.css">
     <link rel="stylesheet" href="components/ke-footer/shadow.css">
     <nav>
         <main>
             <section>
-                <div>
-                <h5>Donors</h5>
-                    <ul class="donors">
-                        <li><a href="https://github.com/thonly"><img src="https://github.com/thonly.png?size=100"></a></li>
-                        <li><a href="https://github.com/panhiathao"><img src="https://github.com/panhiathao.png?size=100"></a></li>
-                        <li><a href="https://github.com/chengsieuly"><img src="https://github.com/chengsieuly.png?size=100"></a></li>
-                        <li><a href="https://github.com/lykimche"><img src="https://github.com/lykimche.png?size=100"></a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>Sponsors</h5>
-                    <ul class="donors">
-                        <li><a href="https://github.com/heartbank"><img src="https://github.com/heartbank.png?size=100"></a></li>
-                        <li><a href="https://github.com/siliconwat"><img src="https://github.com/siliconwat.png?size=100"></a></li>
-                        <li><a href="https://github.com/thonlymetaverse"><img src="https://github.com/thonlymetaverse.png?size=100"></a></li>
-                        <li><a href="https://github.com/nhiakou"><img src="https://github.com/nhiakou.png?size=100"></a></li>
-                    </ul>
-                </div>
+                <ke-donors></ke-donors>
+                <ke-sponsors></ke-sponsors>
             </section>
             <section>
                 <div>
