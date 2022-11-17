@@ -16,14 +16,14 @@ template.innerHTML = `
                 <div>
                     <h5>Donate</h5>
                     <ul>
-                        <li><a href="https://heartbank.fund">HeartBank</a></li>
+                        <li><a href="https://heartbank.fund/#kiitos">HeartBank</a></li>
                         <li><a href="https://github.com/sponsors/3iitos">GitHub</a></li>
                     </ul>
                 </div>
                 <div>
                     <h5>Sponsor</h5>
                     <ul>
-                        <li><a href="https://kiitos.earth">Kiitos</a></li>
+                        <li><a href="https://kitty.kiitos.earth/#kiitos">Kiitos</a></li>
                     </ul>
                 </div>
             </section>
@@ -31,7 +31,7 @@ template.innerHTML = `
                 <div>
                     <h5>Connect</h5>
                     <ul>
-                        <li><a href="https://talk.siliconwat.org">Silicon Wat</a></li>
+                        <li><a href="https://me.thonly.net/#kiitos">THonly</a></li>
                         <li><a href="https://youtube.com/@3iitos">YouTube</a></li>
                         <li><a href="https://twitter.com/3iitos">Twitter</a></li>
                         <li><a href="https://medium.com/@kiitos">Medium</a></li>
