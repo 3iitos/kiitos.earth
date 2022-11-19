@@ -1,10 +1,10 @@
 import "./ke-donors/element.mjs";
 import "./ke-sponsors/element.mjs";
-import { ORIGIN } from "/global.mjs";
+import { THONLY } from "/global.mjs";
 const template = document.createElement("template");
 
 template.innerHTML = `
-    <link rel="stylesheet" href="${ORIGIN}/components/tl-footer/shadow.css">
+    <link rel="stylesheet" href="${THONLY}/components/tl-footer/shadow.css">
     <link rel="stylesheet" href="components/ke-footer/shadow.css">
     <nav>
         <main>
