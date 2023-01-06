@@ -29,12 +29,11 @@ template.innerHTML = `
             </section>
             <section>
                 <div>
-                    <h5>Connect</h5>
+                    <h5>Follow</h5>
                     <ul>
                         <li><a href="https://me.thonly.net/#kiitos">THonly</a></li>
-                        <li><a href="https://youtube.com/@3iitos">YouTube</a></li>
-                        <li><a href="https://twitter.com/3iitos">Twitter</a></li>
-                        <li><a href="https://medium.com/@kiitos">Medium</a></li>
+                        <!--<li><a href="https://youtube.com/@3iitos">YouTube</a></li>
+                        <li><a href="https://twitter.com/3iitos">Twitter</a></li>-->
                     </ul>
                 </div>
                 <div>

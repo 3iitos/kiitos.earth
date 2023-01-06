@@ -15,7 +15,7 @@ main {
 }
 
 button {
-    font-size: 1em;
+    font-size: large;
     padding: 5px 40px;
     cursor: pointer;
     opacity: 0.7;
