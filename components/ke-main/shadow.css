@@ -2,6 +2,7 @@
   display: none;
   font-size: medium;
   position: relative;
+  color: white;
 }
 
 header, main, footer {
@@ -12,7 +13,6 @@ header, main, footer {
 }
 
 header {
-  color: white;
   margin-top: 5%;
   margin-left: 5%;
   text-align: left;
@@ -47,8 +47,12 @@ button {
       margin-top: 0%;
   }
 
+  main {
+      margin-top: 2%;
+  }
+
   tl-kiitos {
-      --width: 70vw;
+      --width: 65vw;
   }
 }
 
