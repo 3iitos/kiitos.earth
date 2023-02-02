@@ -6,8 +6,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/ke-header/shadow.css">
     <header>
         <section>
-            <a href="/"><figure>🌏</figure></a>
-            <a href="/"><h1>Kiitos</h1></a>
+            <a href="#"><figure>🌏</figure></a>
+            <h1>Kiitos</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -17,31 +17,31 @@ template.innerHTML = `
             <li>
                 <h3>Dear Kiitos</h3>
                 <nav>
-                    <a href="#Dear.Kiitos.earth"><button>Dear.Kiitos.earth</button></a>
+                    <a href="https://dear.kiitos.earth"><button>Dear.Kiitos.earth</button></a>
                     <h4>Thanks</h4>
                     <menu>
-                        <li><a>Zero Hero Equation</a></li>
+                        <li><a href="#equation">Zero Hero Equation</a></li>
                     </menu>
                     <h4>Coins</h4>
                     <menu>
-                        <li><a>Non Zero-Sum Blockchain</a></li>
+                        <li><a href="#blockchain">Non Zero-Sum Blockchain</a></li>
                     </menu>
                 </nav>
             </li>
             <li>
                 <h3>Kitty Kiitos</h3>
                 <nav>
-                    <a href="#Kitty.Kiitos.earth"><button>Kitty.Kiitos.earth</button></a>
+                    <a href="https://kitty.kiitos.earth"><button>Kitty.Kiitos.earth</button></a>
                     <h4>Prizes</h4>
                     <menu>
-                        <li><a>Coins</a></li>
-                        <li><a>NFTs</a></li>
+                        <li><a href="#coin">Coins</a></li>
+                        <li><a href="#nft">NFTs</a></li>
                     </menu>
                     <h4>Charities</h4>
                     <menu>
-                        <li><a>Housing</a></li>
-                        <li><a>Farming</a></li>
-                        <li><a>Healthcare</a></li>
+                        <li><a href="#housing">Housing</a></li>
+                        <li><a href="#farming">Farming</a></li>
+                        <li><a href="#healthcare">Healthcare</a></li>
                     </menu>
                 </nav>
             </li>

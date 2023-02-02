@@ -4,7 +4,18 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/ke-main/shadow.css">
-    <slot></slot>
+    <header>
+        <h1>Currently in stealth development...</h1>
+        <br>
+        <a><button></button></a>
+    </header>
+    <main>
+        <tl-kiitos></tl-kiitos>
+    </main>
+    <footer>
+        <!--<tl-robot></tl-robot>-->
+    </footer>
+
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 3315 1818" enable-background="new 0 0 3315 1818" xml:space="preserve" class="landscape">
 
