@@ -6,6 +6,8 @@ section {
 	flex: 2;
 }
 
-@media (max-width: 480px) {
-	
+@media (max-height: 480px) {
+	section {
+		flex: 1;
+	}
 }
