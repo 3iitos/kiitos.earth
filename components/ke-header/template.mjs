@@ -13,39 +13,41 @@ template.innerHTML = `
         <label class='menu-button-container' for="menu-toggle">
             <span class='menu-button'></span>
         </label>
-        <ul>
-            <li>
-                <h3>Dear Kiitos</h3>
-                <nav>
-                    <a href="https://dear.kiitos.earth"><button>Dear.Kiitos.earth</button></a>
-                    <h4>Thanks</h4>
-                    <menu>
-                        <li><a href="#equation">Zero Hero Equation</a></li>
-                    </menu>
-                    <h4>Coins</h4>
-                    <menu>
-                        <li><a href="#blockchain">Non Zero-Sum Blockchain</a></li>
-                    </menu>
-                </nav>
-            </li>
-            <li>
-                <h3>Kitty Kiitos</h3>
-                <nav>
-                    <a href="https://kitty.kiitos.earth"><button>Kitty.Kiitos.earth</button></a>
-                    <h4>Prizes</h4>
-                    <menu>
-                        <li><a href="#coin">Coins</a></li>
-                        <li><a href="#nft">NFTs</a></li>
-                    </menu>
-                    <h4>Charities</h4>
-                    <menu>
-                        <li><a href="#housing">Housing</a></li>
-                        <li><a href="#farming">Farming</a></li>
-                        <li><a href="#healthcare">Healthcare</a></li>
-                    </menu>
-                </nav>
-            </li>
-        </ul>
+        <div>
+            <ul>
+                <li>
+                    <h3>Dear Kiitos</h3>
+                    <nav>
+                        <a href="https://dear.kiitos.earth"><button>Dear.Kiitos.earth</button></a>
+                        <h4>Thanks</h4>
+                        <menu>
+                            <li><a href="#equation">Zero Hero Equation</a></li>
+                        </menu>
+                        <h4>Coins</h4>
+                        <menu>
+                            <li><a href="#blockchain">Non Zero-Sum Blockchain</a></li>
+                        </menu>
+                    </nav>
+                </li>
+                <li>
+                    <h3>Kitty Kiitos</h3>
+                    <nav>
+                        <a href="https://kitty.kiitos.earth"><button>Kitty.Kiitos.earth</button></a>
+                        <h4>Prizes</h4>
+                        <menu>
+                            <li><a href="#coin">Coins</a></li>
+                            <li><a href="#nft">NFTs</a></li>
+                        </menu>
+                        <h4>Charities</h4>
+                        <menu>
+                            <li><a href="#housing">Housing</a></li>
+                            <li><a href="#farming">Farming</a></li>
+                            <li><a href="#healthcare">Healthcare</a></li>
+                        </menu>
+                    </nav>
+                </li>
+            </ul>
+        </div>
         <aside>
             <select onchange="this.getRootNode().host.changeLanguage(event)">
                 <option value="en">English</option>
